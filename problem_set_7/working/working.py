@@ -72,7 +72,5 @@ def convert(s):
         raise ValueError();
 
 
-    return "00:00";
-
 if __name__ == "__main__":
     main()
