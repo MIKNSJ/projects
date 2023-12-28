@@ -1,4 +1,4 @@
-Problem Set 7 Documentation
+# Problem Set 7 Documentation
 
 Started: 12/27/2023
 
