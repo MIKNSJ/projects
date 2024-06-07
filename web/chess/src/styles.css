@@ -1,0 +1,28 @@
+body {
+    background-color: #151515;
+}
+
+.title {
+    color: white;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(8, 50px);
+    grid-template-rows: repeat(8, 50px);
+    gap: 5px
+
+
+}
+
+.cell {
+    display: flex;
+    background-color: green;
+    width: 50px;
+    height: 50px;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+    justify-content: center;
+    align-content: center;
+}
