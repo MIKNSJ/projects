@@ -20,6 +20,17 @@ function generateCells() {
             // <div class = "cell">...</div>
             // or cell.classList.add
             cell.className = "cell";
+
+            if (i % 2 == 0 && j % 2 == 0) {
+                cell.style.backgroundColor = "#F5F5DC";
+            } else if (i % 2 == 0 && j % 2 != 0) {
+                cell.style.backgroundColor = "#8B4513";
+            } else if (i % 2 != 0 && j % 2 == 0) {
+                cell.style.backgroundColor = "#8B4513";
+            } else {
+                cell.style.backgroundColor = "#F5F5DC";
+            }
+
             // <div class = "board">
             //      <div class = "cell">...</div>
             // </div>

@@ -2,27 +2,30 @@ body {
     background-color: #151515;
 }
 
-.title {
+.heading {
     color: white;
+    font-family: sans-serif;
 }
 
 .board {
     display: grid;
-    grid-template-columns: repeat(8, 50px);
-    grid-template-rows: repeat(8, 50px);
-    gap: 5px
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(8, 70px);
+    grid-template-rows: repeat(8, 70px);
+    /*gap: 5px;*/
 
 
 }
 
 .cell {
     display: flex;
-    background-color: green;
-    width: 50px;
-    height: 50px;
-    border-color: white;
-    border-style: solid;
-    border-width: 5px;
+    /* background-color: green; */
+    width: 70px;
+    height: 70px;
+    border-color: gray;
+    border-style: solid; 
+    border-width: 3px;
     justify-content: center;
     align-content: center;
 }
