@@ -2,12 +2,12 @@ body {
     background-color: #151515;
 }
 
-.heading {
+#heading {
     color: white;
     font-family: sans-serif;
 }
 
-.board {
+#board {
     display: grid;
     justify-content: center;
     align-content: center;
@@ -28,4 +28,9 @@ body {
     border-width: 3px;
     justify-content: center;
     align-content: center;
+}
+
+#pieces {
+    font-size: 75px;
+    align-self: center;
 }
