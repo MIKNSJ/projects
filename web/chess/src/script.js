@@ -13,6 +13,25 @@ window.onload = function() {
     generateCells();
 }
 
+function allowDrop(e) {
+    e.preventDefault();
+}
+
+function drag(e) {
+    console.log(e.target);
+    e.dataTransfer.setData("text", e.target.id);
+}
+
+function drop(e) {
+    e.preventDefault();
+    var data = e.dataTransfer.getData("text");
+    var selected_piece = document.getElementById(data);
+
+    if (e.target.className == "cell") {
+        e.target.append(selected_piece);
+    }
+}
+
 function generateCells() {
     // create board
     var board = document.createElement("div");
@@ -27,6 +46,8 @@ function generateCells() {
             // <div class = "cell">...</div>
             // or cell.classList.add
             cell.className = "cell";
+            cell.ondrop = drop;
+            cell.ondragover = allowDrop;
 
             if (i % 2 == 0 && j % 2 == 0) {
                 cell.style.backgroundColor = "#F5F5DC";
@@ -45,7 +66,11 @@ function generateCells() {
 
             if (i < 2 || i > 5) {
                 var piece = document.createElement("div");
-                piece.id = "pieces";
+                piece.className = "pieces";
+                piece.draggable = "true";
+                piece.ondragstart = drag;
+                piece.id = i + "-" + j;
+
                 if (i < 2) {
                     piece.innerHTML = black_pieces.pop();
                 }
@@ -53,8 +78,10 @@ function generateCells() {
                 if (i > 5) {
                     piece.innerHTML = white_pieces.pop();
                 }
+
                 document.getElementsByClassName("cell")[count].append(piece);
             }
+            
             ++count;
         }
     }

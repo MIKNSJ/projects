@@ -30,7 +30,7 @@ body {
     align-content: center;
 }
 
-#pieces {
+.pieces {
     font-size: 75px;
     align-self: center;
 }
