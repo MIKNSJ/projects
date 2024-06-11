@@ -1,0 +1,8 @@
+Username: test
+Coins: 10000
+
+Bet: 1000.0, Coins: 9000.0
+LOST, Payout: -1000.0, Coins: 9000.0
+Round concluded, Coins: 9000.0
+
+Net: -1000.0
