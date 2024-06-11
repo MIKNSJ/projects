@@ -28,9 +28,11 @@ body {
     border-width: 3px;
     justify-content: center;
     align-content: center;
+    user-select: none;
 }
 
 .pieces {
     font-size: 75px;
     align-self: center;
+    user-select: none;
 }
