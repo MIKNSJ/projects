@@ -1,7 +1,7 @@
 # Projects
 
 ## Overview
-This is a collection of projects stored in one repository and developed individually. 
+This is a collection of projects stored in one repository. 
 
 ## Contents
 This section goes over the different projects across various languages.
@@ -9,8 +9,8 @@ This section goes over the different projects across various languages.
 To view the original repository of a specific project, please refer to the source build below. Please note that a project status being "Private" denotes that the project was not uploaded to Github, but through a different cloud service. These specific projects may be shared and granted permission to view upon request of a another individual, group, or organization.
 
 C Language
-- cvector [[source]](https://github.com/MIKNSJ/cvector), [[copy]](https://github.com/MIKNSJ/projects/tree/master/c/cvector)
-- UFO Hunt [[source]](https://github.com/MIKNSJ/ufo-hunt), [[copy]](https://github.com/MIKNSJ/projects/tree/master/c/ufo-hunt)
+- cvector [[source]](https://github.com/MIKNSJ/cvector), [[copy]](https://github.com/MIKNSJ/projects/tree/master/c-language/cvector)
+- UFO Hunt [[source]](https://github.com/MIKNSJ/ufo-hunt), [[copy]](https://github.com/MIKNSJ/projects/tree/master/c-language/ufo-hunt)
 
 C++
 - Minesweeper [[source]](https://github.com/MIKNSJ/minesweeper), [[copy]](https://github.com/MIKNSJ/projects/tree/master/cpp/minesweeper)
