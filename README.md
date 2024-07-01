@@ -16,6 +16,7 @@ C++
 - Minesweeper [[source]](https://github.com/MIKNSJ/minesweeper), [[copy]](https://github.com/MIKNSJ/projects/tree/master/cpp/minesweeper)
 - Mini SVD Calculator [[source]](https://github.com/MIKNSJ/mini-svd-calc), [[copy]](https://github.com/MIKNSJ/projects/tree/master/cpp/mini-svd-calc)
 - Prototype Apoc [[source]](https://github.com/MIKNSJ/prototype-apoc), [[copy]](https://github.com/MIKNSJ/projects/tree/master/cpp/prototype-apoc)
+- Huffman Encoding (Private)
 - Graph Algorithms (Private)
 
 Java
