@@ -39,7 +39,8 @@ Python
 <br>
 
 HTML, CSS, and Javascript
-- iOS Calculator [[website]](https://miknsj.github.io/ios-calculator), [[source]](https://github.com/MIKNSJ/ios-calculator) 
+- Phone Calculator [[website]](https://miknsj.github.io/ios-calculator), [[source]](https://github.com/MIKNSJ/ios-calculator) 
+- McCraft [[website]](https://miknsj.github.io/mccraft), [[source]](https://github.com/MIKNSJ/mccraft) 
 - Portfolio 2024 [[website]](https://miknsj.github.io/), [[source]](https://github.com/MIKNSJ/MIKNSJ.github.io) 
 - Chess (Board Layout Only) (Private)
 
