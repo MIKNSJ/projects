@@ -38,9 +38,10 @@ Python
 
 <br>
 
-HTML, CSS, and Javascript
+HTML, CSS, and JavaScript
+- Roulette [[website]](https://miknsj.github.io/roulette/), [[source]](https://github.com/MIKNSJ/roulette)
 - Structure [[website]](https://miknsj.github.io/structure), [[source]](https://github.com/MIKNSJ/structure)
-- Phone Calculator [[website]](https://miknsj.github.io/ios-calculator), [[source]](https://github.com/MIKNSJ/ios-calculator) 
+- Calculator [[website]](https://miknsj.github.io/ios-calculator), [[source]](https://github.com/MIKNSJ/ios-calculator) 
 - McCraft [[website]](https://miknsj.github.io/mccraft), [[source]](https://github.com/MIKNSJ/mccraft) 
 - Portfolio 2024 [[website]](https://miknsj.github.io/), [[source]](https://github.com/MIKNSJ/MIKNSJ.github.io) 
 - Chess (Board Layout Only) (Private)
